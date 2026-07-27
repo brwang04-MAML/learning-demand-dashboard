@@ -11,7 +11,7 @@ Triggered by a methodology challenge: the rev A scores were presented with more 
 ### Changed
 
 - **Primary reports fetched in full**, replacing search-result summaries. Coursera *Job Skills Report 2026* and Upwork *In-Demand Skills 2026*, both including their methodology sections.
-- **Competitor course pages read directly.** Coursera (IBM x2), CMU Tepper, MIT/Emeritus. Enrollment counts, ratings, prices, and module outlines recorded as measured values.
+- **Competitor course pages read directly.** Two enterprise vendor courses, a university executive program, and a university-partnered certificate. Enrollment counts, ratings, prices, and module outlines recorded as measured values.
 - **Syllabus coverage matrix built** — the first time gap scores rested on measurement rather than inference.
 - **Source tiers added** to every claim: `[A]` primary, `[B]` secondary, `[C]` weak.
 
@@ -19,8 +19,8 @@ Triggered by a methodology challenge: the rev A scores were presented with more 
 
 | Topic | Gap: rev A → rev B | Reason |
 |---|---|---|
-| Find Your AI Use Case | 9 → **3** | IBM already ships *Formulate Your Use Case* (8,319 enrolled, 4.7). Direct incumbent |
-| Verifying AI Output | 8 → **9** | IBM devotes one 7-minute video to this. Confirmed thin across the whole market |
+| Find Your AI Use Case | 9 → **3** | A free vendor course covers this ground (8,319 enrolled, 4.7). Direct incumbent |
+| Verifying AI Output | 8 → **9** | The leading course devotes one 7-minute video to this. Confirmed thin across the whole market |
 | Workflow automation | 6 → 6 | Unchanged, now measured rather than assumed |
 | AI video marketing | 5 → **4** | Confirmed crowded; fastest-decaying content of any candidate |
 
@@ -30,14 +30,14 @@ Triggered by a methodology challenge: the rev A scores were presented with more 
 
 ### Corrections to rev A
 
-- **The rev A top recommendation was wrong.** Use-case discovery was scored as underserved on the reasoning that the market teaches tools rather than diagnosis. Reading the actual IBM syllabus disproved this. No amount of additional searching would have caught it — only reading the competitor's own page did.
+- **The rev A top recommendation was wrong.** Use-case discovery was scored as underserved on the reasoning that the market teaches tools rather than diagnosis. Reading the incumbent's actual syllabus disproved this. No amount of additional searching would have caught it — only reading the competitor's own page did.
 - **Upwork data reinterpreted.** Its methodology measures freelancer *earnings on completed jobs*, not learning demand. It is a lagging proxy, now labeled as such on the dashboard.
 - **Coursera data scope narrowed.** Six million *enterprise* learners via institutional customers — corporate L&D, not the small business owners this dashboard targets. Directionally useful, not directly transferable.
 
 ### Still outstanding
 
-- LinkedIn Learning and Skillshare catalogs unchecked.
-- Maven's cohort catalog checked only briefly; appears adjacent but not overlapping, on weak evidence.
+- Two further self-paced marketplaces remain unchecked.
+- One cohort-course marketplace checked only briefly; appears adjacent but not overlapping, on weak evidence.
 - The "B2B commands 2–3x B2C" claim remains `[C]` and single-sourced, and is load-bearing for the entire pricing strategy. Priority to verify or replace next cycle.
 
 ---

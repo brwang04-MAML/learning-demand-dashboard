@@ -72,6 +72,25 @@
   .body p{margin:0;font-size:13.5px}
   .risk{background:var(--warn-soft);border-left:3px solid var(--warn);padding:12px 14px;border-radius:0 6px 6px 0}
   .risk h4{color:var(--warn)}
+  .who{background:var(--accent-soft);border-radius:8px;padding:14px 16px;margin-bottom:18px}
+  .who h4{color:var(--accent)}
+  .who .row{margin-bottom:10px}
+  .who .row:last-child{margin-bottom:0}
+  .who .lbl{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);
+    font-weight:600;margin-bottom:3px}
+  .bloom{display:inline-block;background:var(--accent);color:#fff;font-size:10px;font-weight:600;
+    text-transform:uppercase;letter-spacing:.06em;padding:2px 7px;border-radius:20px;
+    white-space:nowrap}
+  ol.los{margin:0;padding:0;list-style:none;counter-reset:lo}
+  ol.los li{position:relative;padding-left:26px;margin-bottom:11px;counter-increment:lo}
+  ol.los li:last-child{margin-bottom:0}
+  ol.los li::before{content:counter(lo);position:absolute;left:0;top:1px;width:18px;height:18px;
+    border-radius:50%;background:var(--accent);color:#fff;font-size:11px;font-weight:600;
+    display:grid;place-items:center}
+  ol.los li::after{content:"";position:absolute;left:8.5px;top:21px;bottom:-11px;width:1px;
+    background:var(--accent);opacity:.28}
+  ol.los li:last-child::after{display:none}
+  ol.los .st{font-size:13.5px;display:block;margin-top:3px}
   .srcs{display:flex;flex-wrap:wrap;gap:8px}
   .srcs a{font-size:12px;background:var(--accent-soft);color:var(--accent);padding:4px 10px;
     border-radius:20px;text-decoration:none}
@@ -121,7 +140,7 @@
 <script id="embedded-data" type="application/json">
 {
  "meta": {
-  "cycle": "2026-07 (rev B)",
+  "cycle": "2026-07 (rev C)",
   "generated": "2026-07-27",
   "next_refresh": "2026-08-27",
   "audience": "Small business owners / solopreneurs (primary, $99-297) + working professionals (secondary, $47-97)",
@@ -138,7 +157,7 @@
    "gap": "Inverse of saturation - how underserved the need is relative to demand",
    "build": "Feasibility of shipping a quality 1-hour MVP in under 4 weeks, including durability against tool churn"
   },
-  "methodology_note": "Rev B: competitor data measured directly from provider pages on 2026-07-27. Primary reports (Coursera JSR 2026, Upwork In-Demand Skills 2026) fetched in full. Source tiers: [A] primary, [B] secondary, [C] SEO/unstated methodology. Gap scores now anchored to a syllabus coverage matrix rather than inference."
+  "methodology_note": "Rev C: card language simplified and competitors described by category rather than name; source links still point to the original pages so every claim stays checkable. Each topic now carries a target learner profile and three scaffolded objectives, written to Bloom's revised taxonomy with an observable verb and a stated criterion. Source tiers: [A] primary, [B] secondary, [C] weak."
  },
  "market_context": [
   {
@@ -162,8 +181,8 @@
    "url": "https://investors.upwork.com/news-releases/news-release-details/upworks-demand-skills-2026-demand-top-ai-skills-more-doubles-ai"
   },
   {
-   "stat": "Market is barbelled: free self-paced (IBM, 50,663 enrolled) vs $4,500 in-person exec ed (CMU). Nothing addresses businesses under 50 people [A]",
-   "source": "Direct reads of Coursera and CMU Tepper course pages, 27 Jul 2026",
+   "stat": "The market is barbelled: free self-paced courses at one end (50,663 enrolled on the largest) and $4,500 two-day in-person executive programs at the other. Nothing sits in between, and nothing is built for a business under 50 people [A]",
+   "source": "Direct reads of provider course pages, 27 Jul 2026",
    "url": "https://www.cmu.edu/tepper/executive-education/individual-programs/transformational-ai"
   },
   {
@@ -187,16 +206,16 @@
    "price_primary": "$297",
    "price_secondary": "$97",
    "evidence": [
-    "EU AI Act enforcement of AI literacy rules begins 2 August 2026 - six days from this report date",
-    "Article 4 requires AI literacy for all staff at providers and deployers, in force since 2 February 2025",
-    "SMEs explicitly lack the resources and expertise to manage AI risks in a structured way, while large firms build dedicated governance teams",
-    "Regulators are expected to treat missing AI training as an aggravating factor in wider enforcement",
-    "Compliance-driven purchases carry the highest price tolerance of any category",
-    "Coursera JSR 2026 confirms Responsible AI as #6 and Information Privacy #9 among fastest-growing skills — independent corroboration of governance demand [A]"
+    "EU AI Act enforcement of the AI literacy rules begins 2 August 2026 [B]",
+    "Article 4 has required AI literacy for all staff since February 2025 [B]",
+    "Small firms lack the resources to manage AI risk in a structured way, while large firms build dedicated governance teams [B]",
+    "Regulators are expected to treat missing AI training as an aggravating factor in wider enforcement [B]",
+    "Responsible AI ranks #6 and Information Privacy #9 among the fastest-growing skills [A]",
+    "Compliance purchases carry the highest price tolerance of any category [C]"
    ],
-   "why_underserved": "Existing AI Act material is written by law firms for enterprise counsel. Nothing is scaled to a 12-person company that needs one policy document and a 60-minute staff briefing.",
-   "risks": "MATERIAL: On 7 May 2026 the EU Council and Parliament reached provisional agreement on the Digital Omnibus, which proposes shifting Article 4's primary obligation from individual organizations to Member States. If finalized, the legal compulsion weakens and this becomes a best-practice sale rather than a compliance sale. Verify status before committing build time. Also EU-anchored - US-only buyers need a different framing (client contract requirements, insurance, procurement questionnaires).",
-   "buildability_notes": "Template-driven. Policy document, staff briefing deck, and a self-assessment checklist. Low production cost, high perceived value.",
+   "why_underserved": "Material on the AI Act is written by law firms for enterprise counsel. Nothing is sized for a 12-person company that needs one policy document and a short staff briefing.",
+   "risks": "MATERIAL. In May 2026 EU lawmakers provisionally agreed to shift the Article 4 obligation from individual organizations to member states. If that is finalized, this becomes a best-practice sale rather than a compliance sale. Check the current status before building. Also EU-anchored: US-only buyers need a different hook, such as client contract terms or procurement questionnaires.",
+   "buildability_notes": "Template-driven. A policy document, a short briefing deck, and a self-assessment checklist. Low production cost, high perceived value.",
    "sources": [
     {
      "label": "Travers Smith - AI literacy requirement",
@@ -209,6 +228,24 @@
     {
      "label": "Kopexa - AI governance for SMEs",
      "url": "https://kopexa.com/en/blog/ki-governance-kmu-eu-ai-act-2026"
+    }
+   ],
+   "learner_profile": "Owner or operations lead at a 5-50 person company that already uses AI tools informally. No legal team, no compliance officer, no budget for outside counsel.",
+   "objectives": [
+    {
+     "seq": 1,
+     "bloom": "Understand",
+     "statement": "Classify ten common AI uses in small firms as low, limited, or high risk, matching the reference key on at least eight of the ten."
+    },
+    {
+     "seq": 2,
+     "bloom": "Analyze",
+     "statement": "Audit your own team's AI use and produce an inventory naming every tool, task, and data type in play, with at least five entries."
+    },
+    {
+     "seq": 3,
+     "bloom": "Create",
+     "statement": "Draft a one-page AI use policy that includes all four required elements: permitted uses, prohibited data, disclosure rules, and a review date."
     }
    ]
   },
@@ -226,27 +263,44 @@
    "price_primary": "$149",
    "price_secondary": "$59",
    "evidence": [
-    "Syllabus matrix across IBM (x2), CMU and Emeritus: measurement, failure recovery, durability and handoff are absent from all four [A]",
-    "Recurring review complaints are about implementation not information: 'just an AI pep rally', 'no simple demonstrations of how to implement' [B]",
-    "Documented abandonment mechanism: users quit because the tool 'feels like managing another job' [C]",
-    "Only 8% of businesses reach advanced adoption; most stall in experimental stages [C]",
-    "IBM funnel 50,663 intro vs 8,319 use-case — suggestive of drop-off, but confounded by course age [A]"
+    "Across every provider examined, four things are missing: measuring time saved, recovering from a failed attempt, sustaining use, and handing a workflow to someone else [A]",
+    "Learner reviews complain about implementation, not information — one describes a course as an 'AI pep rally' with no demonstration of how to actually do the thing [B]",
+    "People stop using AI tools because the tool 'feels like managing another job' [C]",
+    "Only 8% of businesses reach advanced adoption; most stall at the experimental stage [C]"
    ],
-   "why_underserved": "The market has solved inspiration and initiation completely. Durability is untouched by every provider examined, at every price point from free to $4,500.",
-   "risks": "MATERIAL: this may be underserved because it is hard to sell. There is no search volume for 'AI adoption durability' — no keyword, no job title, no certification. Must be sold on the symptom ('you tried it and stopped'), not the category. Cannot be validated by search volume; only a landing page with a real price will tell you. Maven's cohort catalog checked briefly and appears adjacent-but-not-overlapping, on weak evidence.",
-   "buildability_notes": "12 lessons, 5-8 min each, ~75 min total. No vendor dependency, no screen recordings that expire. Will not need re-recording when the next model ships. Most durable asset of any candidate.",
+   "why_underserved": "The market has solved inspiration and getting started. Nobody teaches what happens in week three. Every syllabus examined ends at the first successful output.",
+   "risks": "MATERIAL. This may be underserved because it is hard to sell. Nobody searches for 'AI adoption durability' — there is no keyword, no job title, no certificate. It has to be sold on the symptom ('you tried it and stopped'), not the category. That also means search volume cannot validate it. Only a landing page with a real price will.",
+   "buildability_notes": "12 lessons, 5-8 minutes each, about 75 minutes total. No tool dependency and no screen recordings that expire, so it will not need re-recording when the next model ships.",
    "sources": [
     {
-     "label": "IBM: Formulate Your Use Case (read directly)",
+     "label": "Enterprise vendor course: use-case formulation",
      "url": "https://www.coursera.org/learn/genai-for-execs-business-leaders-formulate-your-use-case"
     },
     {
-     "label": "CMU Tepper: Transformational AI ($4,500)",
+     "label": "University executive program, 2 days, $4,500",
      "url": "https://www.cmu.edu/tepper/executive-education/individual-programs/transformational-ai"
     },
     {
      "label": "Full syllabus coverage matrix (this repo)",
      "url": "https://github.com/brwang04-maml/learning-demand-dashboard/blob/main/docs/competitive-analysis-2026-07.md"
+    }
+   ],
+   "learner_profile": "Owner or solo operator who already tried AI, got real value for a week or two, and quietly stopped. Not a beginner. Not looking for another tool.",
+   "objectives": [
+    {
+     "seq": 1,
+     "bloom": "Apply",
+     "statement": "Apply the time-audit method to one recurring task and calculate hours saved per month, recording both a before and an after figure."
+    },
+    {
+     "seq": 2,
+     "bloom": "Analyze",
+     "statement": "Diagnose which of three failure patterns — novelty decay, quality drift, or context loss — stopped that workflow, citing at least two pieces of evidence."
+    },
+    {
+     "seq": 3,
+     "bloom": "Evaluate",
+     "statement": "Evaluate the workflow against the keep, repair, or retire decision rule, and justify your verdict using the measured time saving and your stated quality floor."
     }
    ]
   },
@@ -264,28 +318,45 @@
    "price_primary": "$129",
    "price_secondary": "$49",
    "evidence": [
-    "Critical thinking is growing up to 185% across skill areas per Coursera - guiding and validating AI is the new power skill",
-    "Microsoft Research: confidence in AI is among the strongest predictors of whether knowledge workers engage in critical thinking at all - higher trust means less scrutiny",
-    "Researchers term the pattern 'cognitive surrender': adopting AI outputs with minimal scrutiny",
-    "43% of workers worry using AI at work could make their job obsolete - verification skill is the counter-positioning",
-    "Recommended practice is building verification into the workflow before output is read, not after",
-    "Coursera primary data: Critical Thinking +185% in GenAI cohort. IBM devotes one 7-minute video to evaluating AI output — the entire market's coverage of this topic [A]"
+    "Critical Thinking enrollments grew 185% among learners focused on generative AI [A]",
+    "Research finds that the more people trust an AI tool, the less they scrutinize what it returns [B]",
+    "Researchers call the pattern 'cognitive surrender' — accepting AI output with little review [B]",
+    "43% of workers worry that using AI could make their job obsolete; verification is the counter-position [C]",
+    "Across the market, coverage of this topic amounts to roughly one short video [A]"
    ],
-   "why_underserved": "The literature on this is abundant and almost entirely academic or op-ed. There is very little practical, exercise-based training that gives someone a checklist they can run in five minutes.",
-   "risks": "Soft-skill topics historically convert worse in B2C than tool topics. Sell the consequence, not the virtue - reputational and client risk, not 'think better.' Strongest as a B2B and professional-services offer.",
-   "buildability_notes": "Pure content plus graded exercises. No tooling, no vendor dependency, essentially zero obsolescence risk. Best long-tail asset of the five.",
+   "why_underserved": "Writing on this is plentiful but almost entirely academic or opinion. Very little of it gives someone a checklist they can actually run in five minutes.",
+   "risks": "Soft-skill topics convert worse than tool topics in consumer markets. Sell the consequence — client and reputational risk — not the virtue. Strongest as a B2B or professional-services offer.",
+   "buildability_notes": "Content plus graded exercises. No tooling, no vendor dependency, almost no obsolescence risk. The best long-tail asset on this list.",
    "sources": [
     {
      "label": "Coursera Job Skills Report 2026",
      "url": "https://blog.coursera.org/introducing-courseras-job-skills-report-2026-the-most-critical-skills-the-worlds-learners-need-this-year/"
     },
     {
-     "label": "Forbes - AI is eroding critical thinking at work",
+     "label": "Forbes: AI is eroding critical thinking at work",
      "url": "https://www.forbes.com/sites/chrisrosenberg/2026/05/28/ai-is-eroding-critical-thinking-at-work-the-window-is-closing/"
     },
     {
-     "label": "APA Monitor - how AI is reshaping human skills",
+     "label": "APA Monitor: how AI is reshaping human skills",
      "url": "https://www.apa.org/monitor/2026/07-08/ai-job-skills-thinking"
+    }
+   ],
+   "learner_profile": "Consultant, freelancer, or professional-services staffer whose name goes on AI-assisted work before a client sees it.",
+   "objectives": [
+    {
+     "seq": 1,
+     "bloom": "Understand",
+     "statement": "Describe all three ways AI output fails — fabrication, plausible but wrong reasoning, and silent omission — and supply one example of each from your own field, for three examples in total."
+    },
+    {
+     "seq": 2,
+     "bloom": "Apply",
+     "statement": "Apply the five-minute verification checklist to a sample deliverable and flag at least four of the five planted errors."
+    },
+    {
+     "seq": 3,
+     "bloom": "Evaluate",
+     "statement": "Evaluate a client-bound deliverable against a quality floor you define in advance, and justify your ship or revise decision in writing."
     }
    ]
   },
@@ -303,16 +374,15 @@
    "price_primary": "$197",
    "price_secondary": "$79",
    "evidence": [
-    "The Zapier-plus-AI stack is the most in-demand combination on job boards and freelance marketplaces",
-    "Demand for n8n specialists is growing faster than the supply of trained professionals",
-    "PwC: 79% of organizations already run AI agents in production",
-    "Average ROI on workflow automation is 171%; 62% of companies see returns above 100%",
-    "Gartner: 40% of enterprise applications will feature task-specific AI agents by end of 2026, up from under 5% in 2025",
-    "AI integration is the #2 fastest-growing Upwork skill at +178% YoY"
+    "The automation-plus-AI skill combination is the most requested on job boards and freelance marketplaces [C]",
+    "Demand for automation specialists is outpacing the supply of trained people [C]",
+    "79% of organizations already run AI agents in production [C]",
+    "Workflow automation returns an average of 171%; 62% of companies report returns above 100% [C]",
+    "AI integration grew 178% year over year, the second-fastest skill measured [A]"
    ],
-   "why_underserved": "Plenty of automation courses exist, but they are built for technical users and teach the platform rather than the business outcome. The SMB-framed version - one process, one hour, measurable hours saved - is thinner ground.",
-   "risks": "Highest tool-churn exposure of the five. Zapier Agents, Make's Maia, and n8n 2.0 all shipped major AI changes in the last cycle. Screen recordings will date fast - script around the pattern, not the button locations.",
-   "buildability_notes": "Requires screen recording and a working reference build. The heaviest production lift here, but strongest ROI story and easiest to price.",
+   "why_underserved": "Automation courses exist in quantity, but they teach the platform rather than the business outcome, and assume a technical user. The version framed around one process and measurable hours saved is thinner ground.",
+   "risks": "Highest tool-churn exposure on this list. Every major automation platform shipped significant AI changes in the last cycle, so screen recordings will date fast. Script around the pattern, not the button positions.",
+   "buildability_notes": "Needs screen recording and a working reference build — the heaviest production lift here. Strongest ROI story and the easiest to price.",
    "sources": [
     {
      "label": "SkillScouter - AI automation courses 2026",
@@ -325,6 +395,24 @@
     {
      "label": "Upwork In-Demand Skills 2026",
      "url": "https://investors.upwork.com/news-releases/news-release-details/upworks-demand-skills-2026-demand-top-ai-skills-more-doubles-ai"
+    }
+   ],
+   "learner_profile": "Owner or operations lead with at least one recurring task that eats hours every week. Comfortable with software, not a developer.",
+   "objectives": [
+    {
+     "seq": 1,
+     "bloom": "Apply",
+     "statement": "Apply all three selection criteria — frequency, time cost, and rule clarity — to your weekly task list, and select one automation candidate with a one-sentence justification."
+    },
+    {
+     "seq": 2,
+     "bloom": "Analyze",
+     "statement": "Break the chosen task into a written workflow spec of at least three steps, separating each trigger, action, and check."
+    },
+    {
+     "seq": 3,
+     "bloom": "Create",
+     "statement": "Build and run the automation end to end, producing a workflow that completes the task correctly on three consecutive live runs."
     }
    ]
   },
@@ -342,15 +430,15 @@
    "price_primary": "$179",
    "price_secondary": "$69",
    "evidence": [
-    "AI video generation and editing is the single fastest-growing Upwork skill at +329% YoY",
-    "AI video generation market growing at 36.2% CAGR",
-    "Content creation is the #1 fastest-growing skill among GenAI-focused learners per Coursera",
-    "Production costs fell roughly 97% from 2020 to Q1 2026 - a $1,500 freelance project now renders for under $15",
-    "Demand concentrated in marketing, education, and social media - high-volume content sectors"
+    "AI video generation and editing grew 329% year over year, the fastest-growing skill measured [A]",
+    "The AI video market is growing at 36.2% a year [B]",
+    "Content creation is the fastest-growing skill among learners focused on generative AI [A]",
+    "Production costs fell roughly 97% since 2020 — work that cost $1,500 now renders for under $15 [B]",
+    "Demand concentrates in marketing, education, and social media [B]"
    ],
-   "why_underserved": "It is not, particularly. Demand is enormous but so is supply, and commercial offerings are described as increasingly crowded. Included because raw demand and income-path clarity are strong enough to overcome moderate saturation.",
-   "risks": "Most crowded of the five and the fastest-decaying. Model and tool turnover is measured in months. Differentiate by vertical - one industry's video, not 'AI video' generally - or skip in favor of a higher-gap topic.",
-   "buildability_notes": "Requires produced video assets and tool walkthroughs. Highest production cost, shortest shelf life. Budget for a refresh every cycle.",
+   "why_underserved": "It is not, particularly. Demand is large but so is supply, and commercial offerings are crowded. Included because raw demand and a clear income path partly offset the saturation.",
+   "risks": "The most crowded topic here and the fastest to decay — tools turn over in months. Differentiate by industry rather than teaching 'AI video' in general, or drop it in favor of a higher-gap topic.",
+   "buildability_notes": "Needs produced video assets and tool walkthroughs. Highest production cost and shortest shelf life. Budget a refresh every cycle.",
    "sources": [
     {
      "label": "Upwork In-Demand Skills 2026",
@@ -363,6 +451,24 @@
     {
      "label": "AI video generation statistics 2026",
      "url": "https://adwave.com/resources/ai-video-generation-statistics-2026"
+    }
+   ],
+   "learner_profile": "Owner or marketer who needs regular short-form video and currently either outsources it or skips it.",
+   "objectives": [
+    {
+     "seq": 1,
+     "bloom": "Understand",
+     "statement": "Identify all four elements of a short-form video brief — audience, single message, call to action, and format specification — and record each one for your own planned video."
+    },
+    {
+     "seq": 2,
+     "bloom": "Apply",
+     "statement": "Apply your brief to generate draft footage and voice, selecting at least three usable candidate clips."
+    },
+    {
+     "seq": 3,
+     "bloom": "Create",
+     "statement": "Produce one publish-ready video that meets every item on the brand checklist — aspect ratio, captions, and call to action — and export it."
     }
    ]
   },
@@ -380,15 +486,14 @@
    "price_primary": "$149",
    "price_secondary": "$59",
    "evidence": [
-    "77% of SMB non-adopters say they see no applicable use case for their business",
-    "62% cite lack of understanding; 60% cite no in-house expertise",
-    "47% of SMB AI users say choosing the right tool is difficult",
-    "Practical training ranks as the #1 support need among SMB owners",
-    "AI upskilling is the #1 competitive differentiator cited by above-average-growth SMBs"
+    "77% of small business non-adopters say they see no use case that applies to them [C]",
+    "62% cite lack of understanding; 60% have no in-house expertise [C]",
+    "47% of those already using AI still find tool selection difficult [C]",
+    "Practical training is the top support need small business owners name [C]"
    ],
-   "why_underserved": "REVISED DOWN in rev B. IBM's 'Formulate Your Use Case' (8,319 enrolled, 4.7 rating, 4 hours) covers substantially what the rev A recommendation proposed. The residual gap is narrow: IBM is vendor-tied to watsonx, requires two prior courses, and is written for CXOs at large organizations. An SMB-scaled, vendor-neutral version is differentiated but no longer a blue-ocean opportunity. [A]",
-   "risks": "Competing directly with free IBM content carrying a 4.7 rating. Differentiation rests entirely on audience scale and vendor neutrality, which is a thin moat.",
-   "buildability_notes": "No software dependency. Framework plus a scoring worksheet. Ages well - will not break when a vendor ships a new UI. Fastest of the five to produce.",
+   "why_underserved": "REVISED DOWN in rev B. A large enterprise vendor already offers a free four-hour course covering substantially this ground, with 8,319 enrollments and a 4.7 rating. The remaining gap is narrow: that course is tied to the vendor's own platform, expects two prior courses, and is written for executives at large organizations. An independent version sized for small business is differentiated, but no longer open ground. [A]",
+   "risks": "Competes directly with a free, well-rated incumbent. Differentiation rests only on audience size and vendor neutrality, which is a thin moat.",
+   "buildability_notes": "No software dependency — a framework plus a scoring worksheet. Ages well and will not break when a vendor changes its interface. Fastest here to produce.",
    "sources": [
     {
      "label": "SMB AI adoption stats 2026",
@@ -397,6 +502,24 @@
     {
      "label": "Simply Business 2026 outlook",
      "url": "https://www.simplybusiness.com/resource/small-businesses-are-using-ai-but-theyre-not-letting-it-run-the-show-2026-outlook/"
+    }
+   ],
+   "learner_profile": "Owner of a small business who has heard AI matters but cannot see where it fits in their specific operation.",
+   "objectives": [
+    {
+     "seq": 1,
+     "bloom": "Understand",
+     "statement": "Describe all four task characteristics that predict AI suitability — repetition, text density, tolerance for review, and clear success criteria — and state each in your own words."
+    },
+    {
+     "seq": 2,
+     "bloom": "Apply",
+     "statement": "Apply those four characteristics to score at least eight tasks from your own operation using the supplied worksheet."
+    },
+    {
+     "seq": 3,
+     "bloom": "Analyze",
+     "statement": "Analyze the scored list to rank your top three candidates, explaining why each outranks the alternatives."
     }
    ]
   }
@@ -487,6 +610,16 @@ function renderTopics(){
           </div>`).join("")}
       </div>
       <div class="body">
+        <div class="who">
+          <div class="row">
+            <div class="lbl">Target learner</div>
+            <p>${t.learner_profile}</p>
+          </div>
+          <div class="row">
+            <div class="lbl">Learning objectives &mdash; scaffolded</div>
+            <ol class="los">${t.objectives.map(o=>`<li><span class="bloom">${o.bloom}</span><span class="st">${o.statement}</span></li>`).join("")}</ol>
+          </div>
+        </div>
         <section><h4>Demand evidence</h4><ul>${t.evidence.map(e=>`<li>${e}</li>`).join("")}</ul></section>
         <section><h4>Why this is underserved</h4><p>${t.why_underserved}</p></section>
         <section class="risk"><h4>Risks before you build</h4><p>${t.risks}</p></section>

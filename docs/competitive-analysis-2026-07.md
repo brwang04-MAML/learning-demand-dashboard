@@ -13,7 +13,7 @@ Source tiers used throughout:
 
 The first dashboard scored "Find Your AI Use Case" as the #1 underserved topic, on the reasoning that everyone teaches tools and nobody teaches diagnosis.
 
-**That was wrong, and reading the actual course pages is what showed it.** IBM ships `GenAI for Execs & Business Leaders: Formulate Your Use Case` on Coursera — a 4-hour course whose stated outcomes are, almost verbatim, what I proposed building. It has 8,319 enrollments and a 4.7 rating. [A]
+**That was wrong, and reading the actual course pages is what showed it.** A large enterprise vendor offers a free four-hour course whose stated outcomes are, almost verbatim, what was proposed. It has 8,319 enrollments and a 4.7 rating. [A]
 
 The gap is real but sits one step later in the learner's journey than I placed it. Details in section 4.
 
@@ -25,19 +25,19 @@ Every figure below was read directly off the provider's own page on 27 July 2026
 
 | Provider | Offering | Length | Level | Price | Enrolled | Rating |
 |---|---|---|---|---|---|---|
-| IBM / Coursera | GenAI for Execs: An Introduction | 3 h, 2 modules | Beginner | Free / Coursera Plus | 50,663 | 4.6 (536) |
-| IBM / Coursera | GenAI for Execs: Formulate Your Use Case | 4 h, 2 modules | Intermediate | Free / Coursera Plus | 8,319 | 4.7 (139) |
-| IBM / Coursera | GenAI for Execs: Integration Strategy | not read | — | Free / Coursera Plus | — | — |
-| CMU Tepper | Transformational AI & Business Strategy | 2 days, in person (Pittsburgh, 4–5 Nov 2026) | Directors / senior managers | **$4,500** | — | — |
-| CMU Tepper + SCS | AI for Business | Asynchronous | Non-technical, no coding | not published | — | — |
-| MIT Schwarzman / Emeritus | AI & Automation for the Enterprise | 6 weeks, 4 modules | 5–10 yrs experience, degree required | not published | — | — |
-| Udemy | Wide catalog, no single dominant title | Varies | Varies | $15–$150 typical | — | Platform-level 1.8/5 Trustpilot [C] |
+| Enterprise vendor A | Executive introduction to generative AI | 3 h, 2 modules | Beginner | Free with subscription | 50,663 | 4.6 (536) |
+| Enterprise vendor A | Formulating an AI use case | 4 h, 2 modules | Intermediate | Free with subscription | 8,319 | 4.7 (139) |
+| Enterprise vendor A | AI integration strategy | not read | — | Free with subscription | — | — |
+| University executive program | Transformational AI and business strategy | 2 days, in person | Directors / senior managers | **$4,500** | — | — |
+| University executive program | AI for business | Asynchronous | Non-technical, no coding | not published | — | — |
+| University-partnered certificate | AI and automation for the enterprise | 6 weeks, 4 modules | 5–10 yrs experience, degree required | not published | — | — |
+| Open marketplace | Wide catalog, no dominant title | Varies | Varies | $15–$150 typical | — | Mixed platform-level ratings [C] |
 
-**The market is barbelled.** Free-to-cheap self-paced content at one end (IBM, Udemy), $4,500 in-person executive education at the other (CMU). There is very little in between, and nothing at all addressed to a business with fewer than 50 employees.
+**The market is barbelled.** Free-to-cheap self-paced content at one end, $4,500 in-person executive education at the other. There is very little in between, and nothing at all addressed to a business with fewer than 50 employees.
 
 ### Segment mismatch worth naming
 
-CMU's program targets "directors, senior managers, and leaders tasked with implementation of AI strategy across the organization" [A]. Emeritus requires a bachelor's degree and 5–10 years' experience [C]. IBM's course is written for "CXOs or line of business leaders" and requires two prior courses [A].
+The university executive program targets "directors, senior managers, and leaders tasked with implementation of AI strategy across the organization" [A]. The university-partnered certificate requires a bachelor's degree and 5–10 years' experience [C]. The vendor course is written for executives and line-of-business leaders, and expects two prior courses [A].
 
 **None of these are built for the owner of a 12-person company.** That person has no AI strategy team, no data infrastructure to audit, and no budget for a two-day trip to Pittsburgh.
 
@@ -45,9 +45,9 @@ CMU's program targets "directors, senior managers, and leaders tasked with imple
 
 ## 3. Syllabus coverage matrix
 
-Module-level outlines extracted from IBM's two courses [A], CMU's published takeaways [A], and Emeritus/MIT's described modules [C].
+Module-level outlines extracted from the two vendor courses [A], the university program's published takeaways [A], and the certificate program's described modules [C].
 
-| Topic | IBM intro | IBM use case | CMU | Emeritus | Verdict |
+| Topic | Vendor intro | Vendor use case | University exec | Certificate | Verdict |
 |---|---|---|---|---|---|
 | What GenAI is, history, capabilities | ✅ | — | ✅ | ✅ | Saturated |
 | Writing effective prompts | — | ✅ | — | — | Saturated market-wide |
@@ -71,7 +71,7 @@ Every syllabus in this market ends at the moment of first successful output. Not
 
 Four independent signals converge on the same failure mode.
 
-**Learners abandon between formulation and implementation.** IBM's specialization shows 50,663 enrollments in course 1 and 8,319 in the use-case course [A]. *Caveat: this is an inference, not proof — the courses launched at different times and enrollment is cumulative, so some of that spread is age, not attrition. It is suggestive, not conclusive.*
+**Learners abandon between formulation and implementation.** One vendor's course sequence shows 50,663 enrollments in the introduction and 8,319 in the use-case course [A]. *Caveat: this is an inference, not proof — the courses launched at different times and enrollment is cumulative, so some of that spread is age, not attrition. It is suggestive, not conclusive.*
 
 **The complaint pattern in reviews is about implementation, not information.** Recurring phrasing in Coursera reviews includes "just an AI pep rally," "no simple demonstrations of how to implement the various tasks discussed," "too generic," and "could easily be found on YouTube" [B].
 
@@ -103,7 +103,7 @@ This also means demand cannot be validated by search volume. It has to be valida
 
 **Learner:** Owner or operator of a business with 2–50 people who has already tried AI, got some value, and watched it fade.
 
-**Positioning against the market:** IBM and CMU sell you the beginning. This is the only thing on the market that sells you the middle.
+**Positioning against the market:** every existing offering sells the beginning. This is the only one that sells the middle.
 
 ### Lesson map
 
@@ -154,12 +154,12 @@ If the page does not convert, the finding is cheap and you have lost a weekend r
 
 ## 7. Confidence and what would change my mind
 
-**What I am reasonably confident about:** the coverage matrix. I read those syllabi directly, and the absence of durability content across all four providers is not ambiguous. [A]
+**What I am reasonably confident about:** the coverage matrix. I read those syllabi directly, and the absence of durability content across every provider examined is not ambiguous. [A]
 
 **What is inferential:** that the absence represents unmet demand rather than absent demand. Course markets sometimes omit a topic because nobody wants it. The abandonment evidence [B/C] makes me think the need is real, but need and willingness to pay are different things.
 
 **What would change my mind:** a landing page that doesn't convert. That is the only test that matters, and it is cheaper than any further research I could do.
 
-**Cohort market, checked briefly:** Maven hosts live cohort courses on AI automation for business leaders and operations managers, and on building AI agents [C]. These are adjacent but still initiation-shaped — they teach building, not sustaining. No durability-focused offering surfaced. Treat this as weak evidence: a search that finds nothing is not the same as nothing existing, and Maven's catalog is not fully indexed.
+**Cohort market, checked briefly:** one cohort-course marketplace hosts live courses on AI automation for business leaders and on building AI agents [C]. These are adjacent but still initiation-shaped — they teach building, not sustaining. No durability-focused offering surfaced. Treat this as weak evidence: a search that finds nothing is not the same as nothing existing, and that catalog is not fully indexed.
 
-**Still unchecked:** LinkedIn Learning and Skillshare catalogs directly. Worth 30 minutes before you commit build time.
+**Still unchecked:** two further self-paced marketplaces. Worth 30 minutes before committing build time.

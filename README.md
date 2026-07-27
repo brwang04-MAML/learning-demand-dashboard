@@ -44,7 +44,7 @@ It attacks the first problem directly and makes the second one tractable.
 
 **Competitive position is measured, not assumed.** Each cycle reads competitor syllabi directly and records what they cover. Gaps are identified from what's demonstrably missing across the market, not from a hunch that nobody's doing it.
 
-That last point is not theoretical. In this project's first cycle, the top-ranked topic was a **use-case discovery course**, chosen on the reasoning that the market teaches tools while learners can't identify where AI fits.
+That last point is not theoretical. In this project's first cycle, the top-ranked topic was a use-case discovery course, chosen on the reasoning that the market teaches tools while learners can't identify where AI fits. Reading the incumbent's actual syllabus the same day disproved it — a major vendor already offers exactly that course for free, with 8,319 enrollments and a 4.7 rating. The recommendation was wrong, and it was caught within hours rather than after a build. The full correction is recorded in [`docs/CHANGELOG.md`](docs/CHANGELOG.md).
 
 ---
 

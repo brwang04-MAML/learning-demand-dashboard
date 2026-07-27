@@ -54,11 +54,11 @@ Two changes:
 
 Reading Upwork's methodology surfaced a caveat that changes its interpretation: **it measures earnings on completed freelance jobs, not learning demand.** It is a proxy, and a lagging one.
 
-**Competitor course pages read directly** rather than searched. This overturned the rev A recommendation. IBM already ships *GenAI for Execs & Business Leaders: Formulate Your Use Case* on Coursera — 4 hours, 8,319 enrolled, 4.7 rating — covering substantially what rev A proposed building. Its gap score fell from 9 to 3.
+**Competitor course pages read directly** rather than searched. This overturned the rev A recommendation. A large enterprise vendor already offers a free four-hour course covering substantially what rev A proposed building, with 8,319 enrollments and a 4.7 rating. Its gap score fell from 9 to 3.
 
 ### Stage 5 — Syllabus coverage matrix
 
-Module-level outlines extracted from IBM (two courses), CMU Tepper, and MIT/Emeritus, then compared for what every provider covers versus what none do.
+Module-level outlines extracted from six offerings across three provider types — enterprise vendor courses, a university executive program, and a university-partnered certificate — then compared for what every provider covers versus what none do.
 
 Every syllabus examined covers: what GenAI is, prompting, use-case identification, risk and governance, feasibility. **None cover** measuring whether the implementation saved time, recovering from a failed first attempt, sustaining use past the novelty period, or handing a workflow to a colleague.
 
@@ -104,7 +104,7 @@ Topic: *The Third Week* — demand 7, WTP 7, gap 10, buildability 10.
 
 Every claim carries a tier tag:
 
-- **`[A]` Primary** — the organization's own report or a course page read directly. Coursera JSR 2026, Upwork In-Demand Skills 2026, Coursera and CMU course pages.
+- **`[A]` Primary** — the organization's own report or a course page read directly. Coursera JSR 2026, Upwork In-Demand Skills 2026, and provider course pages read directly.
 - **`[B]` Secondary** — trade press, law firms, research summaries. Forbes, APA Monitor, Travers Smith.
 - **`[C]` Weak** — SEO content marketing, methodology unstated, some plausibly AI-generated aggregations.
 
@@ -122,7 +122,7 @@ Tier `[C]` claims are not excluded, because some are the only available evidence
 
 **Absence of supply is not proof of demand.** The coverage matrix reliably shows that no competitor teaches durability. It cannot show whether that is because nobody wants it. This is the central risk on the current top recommendation and it is flagged on the dashboard card.
 
-**Enrollment differentials are confounded.** The IBM funnel figure (50,663 intro versus 8,319 use-case) is cited as suggestive of drop-off, but the courses launched at different times and enrollment is cumulative. Some of that spread is age, not attrition.
+**Enrollment differentials are confounded.** The vendor funnel figure (50,663 introduction versus 8,319 use-case) is cited as suggestive of drop-off, but the courses launched at different times and enrollment is cumulative. Some of that spread is age, not attrition.
 
 **Coursera's data is enterprise-weighted.** Six million *enterprise* learners reached through institutional customers. That population is corporate L&D, not small business owners — a different buyer from this dashboard's target. Directionally useful, not directly transferable.
 
