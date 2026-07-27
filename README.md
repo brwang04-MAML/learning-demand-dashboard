@@ -44,7 +44,7 @@ It attacks the first problem directly and makes the second one tractable.
 
 **Competitive position is measured, not assumed.** Each cycle reads competitor syllabi directly and records what they cover. Gaps are identified from what's demonstrably missing across the market, not from a hunch that nobody's doing it.
 
-In this project's first cycle, the top-ranked topic was a use-case discovery course, chosen on the reasoning that the market teaches tools while learners can't identify where AI fits.
+In this project's first cycle, the top-ranked topic was a **use-case discovery course**, chosen on the reasoning that the market teaches tools while learners can't identify where AI fits.
 
 ---
 
@@ -95,3 +95,8 @@ Full limitations are documented in [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) 
 ## Licence
 
 Released under the [MIT Licence](https://choosealicense.com/licenses/mit/). The underlying source material — Coursera's and Upwork's published reports — remains theirs; this project cites it rather than reproducing it.
+
+## Disclaimer
+This is a personal project, built to learn GitHub and Claude and to express personal opinions based on past experience. The observations about institutional course development reflect my own professional experience and are not descriptions of any specific organisation. Views expressed here are my own and not those of any current or former employer.
+
+The scoring is judgement-based, as set out in docs/METHODOLOGY.md. Nothing here is professional advice, and no topic on this dashboard has been validated with real buyers.
