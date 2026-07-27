@@ -12,21 +12,21 @@ Online course development at most institutions fails in a predictable way, and i
 
 ### Problem 1 — Topic decisions are made without market evidence
 
-Courses get greenlit on the strength of internal conviction: a faculty member's specialism, a department's existing capability, an executive's read of the industry, or last year's enrolment pattern. Sometimes there's a survey of current students, which asks people already inside the funnel what they want and misses everyone who never applied.
+Courses get greenlit on the strength of internal conviction: a faculty member's specialty, a department's existing capability, an executive's read of the industry, or last year's enrollment pattern. Sometimes there's a survey of current students, which asks people already inside the funnel what they want and misses everyone who never applied.
 
 What almost never happens is a structured look at what people outside the institution are actively searching for, paying for, and failing to find.
 
-When research does happen it's usually a one-off — commissioned at the start of a programme, never repeated. By the time the course launches, that research describes a market that has moved. In a field like AI, where the fastest-growing skill on Upwork grew 329% in a single year, a snapshot taken twelve months ago is not a weak signal. It's a wrong one.
+When research does happen it's usually a one-off — commissioned at the start of a program, never repeated. By the time the course launches, that research describes a market that has moved. In a field like AI, where the fastest-growing skill on Upwork grew 329% in a single year, a snapshot taken twelve months ago is not a weak signal. It's a wrong one.
 
 ### Problem 2 — Development takes so long the content is stale at launch
 
-The standard model is waterfall. Analyse, design, develop every asset, then launch. A full course is commonly nine to eighteen months from approval to first cohort.
+The standard model is waterfall. Analyze, design, develop every asset, then launch. A full course is commonly nine to eighteen months from approval to first cohort.
 
 Two things go wrong across that span:
 
 **The market moves underneath you.** Tool-dependent content is the worst case — screen recordings of a software interface can be obsolete within a quarter — but topic relevance decays too. A gap that was real at kickoff may be filled by a competitor before you ship.
 
-**Feedback arrives only after the money is spent.** The first real signal is enrolment, and the second is completion rate. Both arrive after full production cost has been incurred. When they come back weak, the diagnosis is too late to act on: the cost is sunk, the team has moved on, and the honest conclusion — that the topic was wrong — is the most expensive one to admit.
+**Feedback arrives only after the money is spent.** The first real signal is enrollment, and the second is completion rate. Both arrive after full production cost has been incurred. When they come back weak, the diagnosis is too late to act on: the cost is sunk, the team has moved on, and the honest conclusion — that the topic was wrong — is the most expensive one to admit.
 
 **The two problems reinforce each other.** Weak upfront research raises the chance of picking the wrong topic. Long development guarantees the mistake stays hidden until it's unaffordable to fix.
 
@@ -44,7 +44,7 @@ It attacks the first problem directly and makes the second one tractable.
 
 **Competitive position is measured, not assumed.** Each cycle reads competitor syllabi directly and records what they cover. Gaps are identified from what's demonstrably missing across the market, not from a hunch that nobody's doing it.
 
-In this project's first cycle, the top-ranked topic was a **use-case discovery course**, chosen on the reasoning that the market teaches tools while learners can't identify where AI fits.
+That last point is not theoretical. In this project's first cycle, the top-ranked topic was a use-case discovery course, chosen on the reasoning that the market teaches tools while learners can't identify where AI fits. Reading IBM's actual syllabus the same day disproved it — they already ship exactly that course, with 8,319 enrollments and a 4.7 rating. The recommendation was wrong, and it was caught within hours rather than after a build. The full correction is recorded in [`docs/CHANGELOG.md`](docs/CHANGELOG.md).
 
 ---
 
@@ -64,7 +64,7 @@ In this project's first cycle, the top-ranked topic was a **use-case discovery c
 
 This is a decision aid for choosing what to *test* next. It is not evidence that any topic will sell.
 
-The sub-scores are analyst judgements anchored to cited evidence, not measurements. A gap of 8.50 versus 8.35 sits inside the scoring error. A high score justifies building a landing page with a real price and seeing whether anyone converts — nothing more.
+The sub-scores are analyst judgments anchored to cited evidence, not measurements. A gap of 8.50 versus 8.35 sits inside the scoring error. A high score justifies building a landing page with a real price and seeing whether anyone converts — nothing more.
 
 Full limitations are documented in [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) and worth reading before relying on any number here.
 
@@ -72,7 +72,7 @@ Full limitations are documented in [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) 
 
 ## Reading the dashboard
 
-**Weight sliders.** Drag to re-weight the four factors; the ranking reorders live. Weights need not total 100 — scores are normalised against whatever total is set.
+**Weight sliders.** Drag to re-weight the four factors; the ranking reorders live. Weights need not total 100 — scores are normalized against whatever total is set.
 
 **Topic cards.** Click any topic to expand its demand evidence, the argument for why it's underserved, risks to check before building, buildability notes, and source links.
 
@@ -92,11 +92,14 @@ Full limitations are documented in [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) 
 
 ---
 
-## Licence
-
-Released under the [MIT Licence](https://choosealicense.com/licenses/mit/). The underlying source material — Coursera's and Upwork's published reports — remains theirs; this project cites it rather than reproducing it.
-
 ## Disclaimer
-This is a personal project, built to learn GitHub and Claude and to express personal opinions based on past experience. The observations about institutional course development reflect my own professional experience and are not descriptions of any specific organisation. Views expressed here are my own and not those of any current or former employer.
 
-The scoring is judgement-based, as set out in docs/METHODOLOGY.md. Nothing here is professional advice, and no topic on this dashboard has been validated with real buyers.
+This is a personal project, built to learn GitHub and Claude and to express personal opinions based on past experience. The observations about institutional course development reflect my own professional experience and are not descriptions of any specific organization. Views expressed here are my own and not those of any current or former employer.
+
+The scoring is judgment-based, as set out in [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md). Nothing here is professional advice, and no topic on this dashboard has been validated with real buyers.
+
+---
+
+## License
+
+Released under the [MIT License](https://choosealicense.com/licenses/mit/). The underlying source material — Coursera's and Upwork's published reports — remains theirs; this project cites it rather than reproducing it.

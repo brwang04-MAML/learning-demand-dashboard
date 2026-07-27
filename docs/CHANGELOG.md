@@ -6,12 +6,12 @@ Every cycle records what changed and, more importantly, *why*. The reasoning tra
 
 ## 2026-07 rev B — 27 July 2026
 
-Triggered by a methodology challenge: the rev A scores were presented with more apparent rigour than the underlying evidence supported.
+Triggered by a methodology challenge: the rev A scores were presented with more apparent rigor than the underlying evidence supported.
 
 ### Changed
 
 - **Primary reports fetched in full**, replacing search-result summaries. Coursera *Job Skills Report 2026* and Upwork *In-Demand Skills 2026*, both including their methodology sections.
-- **Competitor course pages read directly.** Coursera (IBM x2), CMU Tepper, MIT/Emeritus. Enrolment counts, ratings, prices, and module outlines recorded as measured values.
+- **Competitor course pages read directly.** Coursera (IBM x2), CMU Tepper, MIT/Emeritus. Enrollment counts, ratings, prices, and module outlines recorded as measured values.
 - **Syllabus coverage matrix built** — the first time gap scores rested on measurement rather than inference.
 - **Source tiers added** to every claim: `[A]` primary, `[B]` secondary, `[C]` weak.
 
@@ -31,13 +31,13 @@ Triggered by a methodology challenge: the rev A scores were presented with more 
 ### Corrections to rev A
 
 - **The rev A top recommendation was wrong.** Use-case discovery was scored as underserved on the reasoning that the market teaches tools rather than diagnosis. Reading the actual IBM syllabus disproved this. No amount of additional searching would have caught it — only reading the competitor's own page did.
-- **Upwork data reinterpreted.** Its methodology measures freelancer *earnings on completed jobs*, not learning demand. It is a lagging proxy, now labelled as such on the dashboard.
+- **Upwork data reinterpreted.** Its methodology measures freelancer *earnings on completed jobs*, not learning demand. It is a lagging proxy, now labeled as such on the dashboard.
 - **Coursera data scope narrowed.** Six million *enterprise* learners via institutional customers — corporate L&D, not the small business owners this dashboard targets. Directionally useful, not directly transferable.
 
 ### Still outstanding
 
-- LinkedIn Learning and Skillshare catalogues unchecked.
-- Maven's cohort catalogue checked only briefly; appears adjacent but not overlapping, on weak evidence.
+- LinkedIn Learning and Skillshare catalogs unchecked.
+- Maven's cohort catalog checked only briefly; appears adjacent but not overlapping, on weak evidence.
 - The "B2B commands 2–3x B2C" claim remains `[C]` and single-sourced, and is load-bearing for the entire pricing strategy. Priority to verify or replace next cycle.
 
 ---

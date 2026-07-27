@@ -21,12 +21,12 @@
  },
  "market_context": [
   {
-   "stat": "GenAI enrolments run 14 per minute across 1,000+ courses, up from 8/min — and GenAI enrolments rose 234% YoY among enterprise learners [A]",
+   "stat": "GenAI enrollments run 14 per minute across 1,000+ courses, up from 8/min — and GenAI enrollments rose 234% YoY among enterprise learners [A]",
    "source": "Coursera Job Skills Report 2026 (read in full)",
    "url": "https://bsekonomi.com/wp-content/uploads/2026/01/Job-Skills-Report-2026-1.pdf"
   },
   {
-   "stat": "Critical Thinking enrolments grew +185% in the GenAI cohort, +168% Data, +101% Software, +91% IT [A]",
+   "stat": "Critical Thinking enrollments grew +185% in the GenAI cohort, +168% Data, +101% Software, +91% IT [A]",
    "source": "Coursera Job Skills Report 2026",
    "url": "https://bsekonomi.com/wp-content/uploads/2026/01/Job-Skills-Report-2026-1.pdf"
   },
@@ -74,7 +74,7 @@
     "Coursera JSR 2026 confirms Responsible AI as #6 and Information Privacy #9 among fastest-growing skills — independent corroboration of governance demand [A]"
    ],
    "why_underserved": "Existing AI Act material is written by law firms for enterprise counsel. Nothing is scaled to a 12-person company that needs one policy document and a 60-minute staff briefing.",
-   "risks": "MATERIAL: On 7 May 2026 the EU Council and Parliament reached provisional agreement on the Digital Omnibus, which proposes shifting Article 4's primary obligation from individual organisations to Member States. If finalised, the legal compulsion weakens and this becomes a best-practice sale rather than a compliance sale. Verify status before committing build time. Also EU-anchored - US-only buyers need a different framing (client contract requirements, insurance, procurement questionnaires).",
+   "risks": "MATERIAL: On 7 May 2026 the EU Council and Parliament reached provisional agreement on the Digital Omnibus, which proposes shifting Article 4's primary obligation from individual organizations to Member States. If finalized, the legal compulsion weakens and this becomes a best-practice sale rather than a compliance sale. Verify status before committing build time. Also EU-anchored - US-only buyers need a different framing (client contract requirements, insurance, procurement questionnaires).",
    "buildability_notes": "Template-driven. Policy document, staff briefing deck, and a self-assessment checklist. Low production cost, high perceived value.",
    "sources": [
     {
@@ -112,7 +112,7 @@
     "IBM funnel 50,663 intro vs 8,319 use-case — suggestive of drop-off, but confounded by course age [A]"
    ],
    "why_underserved": "The market has solved inspiration and initiation completely. Durability is untouched by every provider examined, at every price point from free to $4,500.",
-   "risks": "MATERIAL: this may be underserved because it is hard to sell. There is no search volume for 'AI adoption durability' — no keyword, no job title, no certification. Must be sold on the symptom ('you tried it and stopped'), not the category. Cannot be validated by search volume; only a landing page with a real price will tell you. Maven's cohort catalogue checked briefly and appears adjacent-but-not-overlapping, on weak evidence.",
+   "risks": "MATERIAL: this may be underserved because it is hard to sell. There is no search volume for 'AI adoption durability' — no keyword, no job title, no certification. Must be sold on the symptom ('you tried it and stopped'), not the category. Cannot be validated by search volume; only a landing page with a real price will tell you. Maven's cohort catalog checked briefly and appears adjacent-but-not-overlapping, on weak evidence.",
    "buildability_notes": "12 lessons, 5-8 min each, ~75 min total. No vendor dependency, no screen recordings that expire. Will not need re-recording when the next model ships. Most durable asset of any candidate.",
    "sources": [
     {
@@ -228,7 +228,7 @@
     "Demand concentrated in marketing, education, and social media - high-volume content sectors"
    ],
    "why_underserved": "It is not, particularly. Demand is enormous but so is supply, and commercial offerings are described as increasingly crowded. Included because raw demand and income-path clarity are strong enough to overcome moderate saturation.",
-   "risks": "Most crowded of the five and the fastest-decaying. Model and tool turnover is measured in months. Differentiate by vertical - one industry's video, not 'AI video' generally - or skip in favour of a higher-gap topic.",
+   "risks": "Most crowded of the five and the fastest-decaying. Model and tool turnover is measured in months. Differentiate by vertical - one industry's video, not 'AI video' generally - or skip in favor of a higher-gap topic.",
    "buildability_notes": "Requires produced video assets and tool walkthroughs. Highest production cost, shortest shelf life. Budget for a refresh every cycle.",
    "sources": [
     {
@@ -265,7 +265,7 @@
     "Practical training ranks as the #1 support need among SMB owners",
     "AI upskilling is the #1 competitive differentiator cited by above-average-growth SMBs"
    ],
-   "why_underserved": "REVISED DOWN in rev B. IBM's 'Formulate Your Use Case' (8,319 enrolled, 4.7 rating, 4 hours) covers substantially what the rev A recommendation proposed. The residual gap is narrow: IBM is vendor-tied to watsonx, requires two prior courses, and is written for CXOs at large organisations. An SMB-scaled, vendor-neutral version is differentiated but no longer a blue-ocean opportunity. [A]",
+   "why_underserved": "REVISED DOWN in rev B. IBM's 'Formulate Your Use Case' (8,319 enrolled, 4.7 rating, 4 hours) covers substantially what the rev A recommendation proposed. The residual gap is narrow: IBM is vendor-tied to watsonx, requires two prior courses, and is written for CXOs at large organizations. An SMB-scaled, vendor-neutral version is differentiated but no longer a blue-ocean opportunity. [A]",
    "risks": "Competing directly with free IBM content carrying a 4.7 rating. Differentiation rests entirely on audience scale and vendor neutrality, which is a thin moat.",
    "buildability_notes": "No software dependency. Framework plus a scoring worksheet. Ages well - will not break when a vendor ships a new UI. Fastest of the five to produce.",
    "sources": [
@@ -291,11 +291,11 @@
   },
   {
    "title": "E-commerce management",
-   "note": "Up 130% YoY on Upwork. Broad for a 1-hour lesson - would need narrowing to a single operation such as listing optimisation."
+   "note": "Up 130% YoY on Upwork. Broad for a 1-hour lesson - would need narrowing to a single operation such as listing optimization."
   },
   {
    "title": "Prompt engineering (general)",
-   "note": "Deliberately excluded. Course-level oversaturation is explicit in the data, and the overwhelming majority attempting to monetise it earn nothing. Only viable as a vertical-specific cut."
+   "note": "Deliberately excluded. Course-level oversaturation is explicit in the data, and the overwhelming majority attempting to monetize it earn nothing. Only viable as a vertical-specific cut."
   },
   {
    "title": "Cybersecurity basics for small business",

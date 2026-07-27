@@ -6,9 +6,9 @@ How topics get onto this dashboard, how they get scored, and what the numbers ca
 
 ## 1. The problem this is solving
 
-Traditional course development at institutions follows a waterfall: assume a market need, design the full curriculum, build every asset, launch. Feedback arrives only after launch, usually as low enrolment or high drop-out. The cost is already sunk and the diagnosis comes too late to act on.
+Traditional course development at institutions follows a waterfall: assume a market need, design the full curriculum, build every asset, launch. Feedback arrives only after launch, usually as low enrollment or high drop-out. The cost is already sunk and the diagnosis comes too late to act on.
 
-The agile alternative inverts the order: gather market evidence first, ship a minimum viable lesson, collect real learner behaviour, and only then invest in production polish. This dashboard is the evidence-gathering step. Its job is to answer **"which topic should we test next month?"** — not "which topic will succeed."
+The agile alternative inverts the order: gather market evidence first, ship a minimum viable lesson, collect real learner behavior, and only then invest in production polish. This dashboard is the evidence-gathering step. Its job is to answer **"which topic should we test next month?"** — not "which topic will succeed."
 
 That distinction matters throughout what follows.
 
@@ -104,7 +104,7 @@ Topic: *The Third Week* — demand 7, WTP 7, gap 10, buildability 10.
 
 Every claim carries a tier tag:
 
-- **`[A]` Primary** — the organisation's own report or a course page read directly. Coursera JSR 2026, Upwork In-Demand Skills 2026, Coursera and CMU course pages.
+- **`[A]` Primary** — the organization's own report or a course page read directly. Coursera JSR 2026, Upwork In-Demand Skills 2026, Coursera and CMU course pages.
 - **`[B]` Secondary** — trade press, law firms, research summaries. Forbes, APA Monitor, Travers Smith.
 - **`[C]` Weak** — SEO content marketing, methodology unstated, some plausibly AI-generated aggregations.
 
@@ -114,15 +114,15 @@ Tier `[C]` claims are not excluded, because some are the only available evidence
 
 ## 4. Known limitations
 
-**The sub-scores are judgements.** There is no measurement instrument, no coding scheme, no second rater. A different analyst applying the same rubric to the same evidence would produce different numbers. This is unvalidated single-rater rubric scoring, and it should be read as such.
+**The sub-scores are judgments.** There is no measurement instrument, no coding scheme, no second rater. A different analyst applying the same rubric to the same evidence would produce different numbers. This is unvalidated single-rater rubric scoring, and it should be read as such.
 
 **Precision is false.** The spread across the top four topics is narrower than the scoring error. Treat the output as tiers — "these four are worth testing, these two aren't" — rather than as a ranked list.
 
-**Demand is the best-evidenced column; buildability is the worst.** Demand maps to real published growth figures. Buildability is a judgement about *your* production capacity, tooling, and comfort with video, made without knowing any of them — and it carries 20% of the weight. **Re-score that column yourself.**
+**Demand is the best-evidenced column; buildability is the worst.** Demand maps to real published growth figures. Buildability is a judgment about *your* production capacity, tooling, and comfort with video, made without knowing any of them — and it carries 20% of the weight. **Re-score that column yourself.**
 
 **Absence of supply is not proof of demand.** The coverage matrix reliably shows that no competitor teaches durability. It cannot show whether that is because nobody wants it. This is the central risk on the current top recommendation and it is flagged on the dashboard card.
 
-**Enrolment differentials are confounded.** The IBM funnel figure (50,663 intro versus 8,319 use-case) is cited as suggestive of drop-off, but the courses launched at different times and enrolment is cumulative. Some of that spread is age, not attrition.
+**Enrollment differentials are confounded.** The IBM funnel figure (50,663 intro versus 8,319 use-case) is cited as suggestive of drop-off, but the courses launched at different times and enrollment is cumulative. Some of that spread is age, not attrition.
 
 **Coursera's data is enterprise-weighted.** Six million *enterprise* learners reached through institutional customers. That population is corporate L&D, not small business owners — a different buyer from this dashboard's target. Directionally useful, not directly transferable.
 
@@ -133,7 +133,7 @@ Tier `[C]` claims are not excluded, because some are the only available evidence
 Reproduce these steps, or ask Claude to run them.
 
 1. **Re-fetch the primary reports.** Coursera and Upwork publish annually; check for a new edition. Between editions, look for quarterly updates.
-2. **Re-read the top three competitor course pages.** Record enrolment counts, ratings, price, and length. Enrolment deltas across a month are the closest thing to a real demand signal available for free.
+2. **Re-read the top three competitor course pages.** Record enrollment counts, ratings, price, and length. Enrollment deltas across a month are the closest thing to a real demand signal available for free.
 3. **Re-run the syllabus matrix** for any competitor that has changed its outline. New modules appearing in incumbent courses are the earliest warning that a gap is closing.
 4. **Search for new entrants** in the gap you're targeting. If someone has shipped it, the gap score drops immediately.
 5. **Re-score, but do not re-weight without a reason.** Changing weights between cycles makes month-over-month comparison meaningless. If you change them, note it in `CHANGELOG.md`.
