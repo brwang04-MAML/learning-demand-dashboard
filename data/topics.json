@@ -124,8 +124,8 @@
      "url": "https://www.cmu.edu/tepper/executive-education/individual-programs/transformational-ai"
     },
     {
-     "label": "Full analysis: competitive-analysis-2026-07.md",
-     "url": "https://www.coursera.org/learn/generative-ai-for-executives-business-leaders-introduction"
+     "label": "Full syllabus coverage matrix (this repo)",
+     "url": "https://github.com/brwang04-maml/learning-demand-dashboard/blob/main/docs/competitive-analysis-2026-07.md"
     }
    ]
   },
@@ -265,7 +265,7 @@
     "Practical training ranks as the #1 support need among SMB owners",
     "AI upskilling is the #1 competitive differentiator cited by above-average-growth SMBs"
    ],
-   "why_underserved": "REVISED DOWN. IBM's 'Formulate Your Use Case' (8,319 enrolled, 4.7 rating, 4 hours) covers substantially what I originally proposed. Residual gap is narrow: IBM is vendor-tied to watsonx, requires two prior courses, and is written for CXOs at large organisations. An SMB-scaled, vendor-neutral version is differentiated but no longer a blue-ocean opportunity. [A]",
+   "why_underserved": "REVISED DOWN in rev B. IBM's 'Formulate Your Use Case' (8,319 enrolled, 4.7 rating, 4 hours) covers substantially what the rev A recommendation proposed. The residual gap is narrow: IBM is vendor-tied to watsonx, requires two prior courses, and is written for CXOs at large organisations. An SMB-scaled, vendor-neutral version is differentiated but no longer a blue-ocean opportunity. [A]",
    "risks": "Competing directly with free IBM content carrying a 4.7 rating. Differentiation rests entirely on audience scale and vendor neutrality, which is a thin moat.",
    "buildability_notes": "No software dependency. Framework plus a scoring worksheet. Ages well - will not break when a vendor ships a new UI. Fastest of the five to produce.",
    "sources": [
