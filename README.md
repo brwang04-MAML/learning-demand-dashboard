@@ -3,7 +3,6 @@
 A monthly market scan that ranks candidate topics for short online courses — built to bring agile practice into instructional design.
 
 **Live dashboard:** `https://brwang04-maml.github.io/learning-demand-dashboard/`
-*(replace with your URL once Pages is enabled — see [Setup](#setup-publishing-to-github))*
 
 ---
 
