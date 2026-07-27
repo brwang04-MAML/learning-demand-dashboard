@@ -54,7 +54,7 @@ That last point is not theoretical. In this project's first cycle, the top-ranke
 
 **Processing.** Candidates are scored 1–10 on four factors against a published anchoring rubric, then combined into a weighted average. Defaults are demand 30%, willingness to pay 25%, underserved gap 25%, buildability 20%.
 
-**Output.** A ranked shortlist, each entry carrying its demand evidence, the argument for why it's underserved, the risks to check before building, buildability notes, and source links. Plus a watchlist of candidates that were scored but didn't make the cut, so the reasoning isn't lost.
+**Output.** A ranked shortlist. Each entry carries a target learner profile, three scaffolded learning objectives, its demand evidence, the argument for why it's underserved, the risks to check before building, buildability notes, and source links. Plus a watchlist of candidates that were scored but didn't make the cut, so the reasoning isn't lost.
 
 **The sliders matter more than the ranking.** The four weights are adjustable in the browser and the list reorders live. This is the feature to actually use: change the emphasis and see whether the conclusion survives. A topic that stays at the top across several weightings is a more robust bet than one that only wins under a single configuration.
 
@@ -74,7 +74,9 @@ Full limitations are documented in [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md) 
 
 **Weight sliders.** Drag to re-weight the four factors; the ranking reorders live. Weights need not total 100 — scores are normalized against whatever total is set.
 
-**Topic cards.** Click any topic to expand its demand evidence, the argument for why it's underserved, risks to check before building, buildability notes, and source links.
+**Topic cards.** Click any topic to expand it. Each card opens with the target learner and three learning objectives, then continues into demand evidence, the argument for why it's underserved, risks to check before building, buildability notes, and source links.
+
+**Learning objectives.** Every topic carries three objectives that rise in cognitive demand, tagged to Bloom's revised taxonomy. Each names an observable action and a criterion for success, so a topic can be turned into a lesson plan without further interpretation.
 
 **Source tiers.** Every claim carries a tag: `[A]` primary source read directly, `[B]` secondary such as trade press or a law firm, `[C]` weak — SEO content with unstated methodology. Some `[C]` claims are load-bearing and are flagged as such on the card.
 
